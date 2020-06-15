@@ -1,0 +1,40 @@
+{extend name="public/base" /}
+{block name="seo"}         
+        <title>红日森</title>
+    </head>
+    <body class="newBody">
+{/block}
+
+{block name="content"}
+    <div class="main">
+        <div class="kuangtiao2"></div>
+        <div class="myserverWrap">
+            <div class="container">
+                <div class="serverInfo ">
+                    <h1 class="h1 red center">
+                        <img src="__IMG__/brackets-left.png" alt="" class="brackets"/>
+                        <span>服务项目</span> 
+                        <img src="__IMG__/brackets-right.png" alt="" class="brackets"/>
+                    </h1>
+                    <div class="desc">
+                        <h3 class="h3Tit center">红 日 森 5S 维 保 “ 匠心 ” 服 务</h3>
+                        <hr class="downLine" />
+                    </div>
+                    <div class="info">
+                        <img class="pic-myserver" src="__IMG__/pic-server-1.png" alt="" srcset="">
+                        <img class="pic-myserver" src="__IMG__/pic-server-2.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgInfo">    
+            <div class="kuangtiao2"></div>
+            {include file="public/ingenuityWrap" /} 
+            <div class="kuangtiao2"></div>
+            {include file="public/newsWrap" /} 
+            <div class="kuangtiao2"></div>
+            {include file="public/mapWrap" /} 
+        </div>
+    </div>
+{/block}
+{block name="js"}{/block}

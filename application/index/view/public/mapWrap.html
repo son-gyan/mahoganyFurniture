@@ -1,0 +1,36 @@
+<div class="mapWrap">
+    <div class="container">
+        <div class="mapInfo">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe id="mapFrame" src="{:url('home/map')}"
+                        frameborder="0" height="356px" width="100%" style="border:none;margin:0; "></iframe>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <h3 class="center">留言板</h3>
+                        </div> 
+                        <div class="form-group formItem">
+                            <label for="">姓名</label><span class="pink">*</span>
+                            <input id="realName" type="text" class="form-control" placeholder="请填写您的姓名">
+                        </div>
+                        <div class="form-group formItem">
+                            <label for="">电话</label><span class="pink">*</span>
+                            <input id="phone" type="tel" class="form-control" placeholder="请留下您的电话">
+                        </div>
+                        <div class="form-group">
+                            <label for="">需求</label><span class="pink">*</span>
+                            <textarea  id="demand" class="form-control" rows="7" placeholder="为了更好地为您服务，请详细描述您的需求"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="center">
+                                <button id="btnSubmit" type="submit" class="btn btn-primary">提交</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+{extend name="public/base" /}
+{block name="seo"}         
+        <title>红日森</title>
+    </head>
+    <body class="newBody">
+{/block}
+
+{block name="content"}
+    <div class="main">            
+        {include file="public/maintenanceWrap" /} 
+        <div class="kuangtiao2"></div>
+        <div class="severWrap">
+            <div class="container">
+                <div class="serverInfo center">
+                    <h4 class="h4">能够提供维保服务的红木家具厂家，才是专业的家居“匠”人</h4>
+                    <h3 class="h3">红日森红木家具维修保养<span class="red">“免”</span>线上评估费</h3>
+                    <h3 class="h3">北京城区新客户五环内首次服务<span class="red">“免”</span>上门费</h3>
+                    <div class="serverPic">
+                        <img src="__IMG__/serverPic.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cultureWrap">
+            <div class="container">
+                <div class="cultureInfo center">
+                    <h3 class="cultureH3">
+                        <img src="__IMG__/cultureTit.png" alt="" srcset="">
+                    </h3>
+                    <ul class="culList">
+                        <li>
+                            <div class="pic">
+                                <img src="__IMG__/cultureImg1.png" alt="" srcset="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="__IMG__/cultureImg2.png" alt="" srcset="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="__IMG__/cultureImg3.png" alt="" srcset="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="__IMG__/cultureImg4.png" alt="" srcset="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bgInfo">                
+            <div class="kuangtiao2"></div>
+
+            {include file="public/ingenuityWrap" /}  
+
+            <div class="kuangtiao2"></div>
+            {include file="public/newsWrap" /} 
+            <div class="kuangtiao2"></div>
+            {include file="public/mapWrap" /} 
+        </div>
+    </div>
+{/block}
+{block name="js"}{/block}

@@ -1,0 +1,94 @@
+{extend name="public/base" /}
+{block name="seo"}         
+        <title>红日森</title>
+    </head>
+    <body class="newBody">
+{/block}
+
+{block name="content"}
+    <div class="main">
+        <div class="kuangtiao2"></div>
+        <div class="knowledgeWrap">
+            <div class="container">
+                <div class="knowledge">
+                    <h1 class="h1 red center">
+                        <img src="__IMG__/brackets-left.png" alt="" class="brackets"/>
+                        <span>红木知识</span> 
+                        <img src="__IMG__/brackets-right.png" alt="" class="brackets"/>
+                    </h1>
+                    <div class="info">
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/knowledgedetail/detail/1')}">
+                                        <img class="media-object" src="__IMG__/knowledge_1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">说说红木家具中的禅道意境，越品越美！</h4>
+                                    <p>红木家具起源于明朝，秉承中国传统文化。从结构、纹样等方面深刻展露了浓厚的文化气息，给人心灵的宁静之感，今天我们就来说说红木家具中的禅道意境。</p>
+                                    <p>2019-2-11</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/knowledgedetail/detail/2')}">
+                                        <img class="media-object" src="__IMG__/knowledge_2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">说说敦煌壁画和古典家具中的佛心禅语！</h4>
+                                    <p>敦煌莫高窟，又称千佛洞，位于河西走廊的西端。它始建于十六国的前秦时代，历经十六国，距现在有两千多年的历史。在它的里面有洞窟735个，壁画4.5万平方米、泥质彩塑2415尊，也是世界上现存规模最大、内容最丰富的佛教艺术地。隋代和唐代是敦煌艺术发展的鼎盛时期，加上印度佛教的传入，这一时期的壁画展现了无与伦比的佛教色彩。</p>
+                                    <p>2019-2-09</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/knowledgedetail/detail/3')}">
+                                        <img class="media-object" src="__IMG__/knowledge_3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">红木的起源 竟然还有如此故事 </h4>
+                                    <p>红木家具历经数百年，至今仍长盛不衰。从昔日的富贵门户的藏物进入了寻常百姓家，更是吸引着很多的高艺术修养和对传统文化有深厚情结的人们。红木家具之所以长盛不衰大概是因为它不仅延承了中华的优秀文化历史，还在于其与时俱进地跟着时代进步融入了不少现代流行元素。要想更深了解到红木家具的前世今生，我们应该从红木家具的故事开始研读。</p>
+                                    <p>2018-12-24</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/knowledgedetail/detail/4')}">
+                                        <img class="media-object" src="__IMG__/knowledge_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">红木家具与瓷器的和谐之美</h4>
+                                    <p>明代家具结构合理耐看，在古朴的基调上艺术感十足。与不同的瓷器搭配，更生出一种和谐之美。那么，让我们来做一次设计师，看看明代不同时期的家具，是如何与瓷器碰撞出火花的。</p>
+                                    <p>2018-11-10</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/knowledgedetail/detail/5')}">
+                                        <img class="media-object" src="__IMG__/knowledge_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">为什么越来越多人喜欢上缅甸花梨家具，其材质大果紫檀有何特点呢</h4>
+                                    <p>黄花梨由于纹理或隐或现、色泽不静不喧，被视为制作红木家具的上乘佳品，因此，备受工匠大师的喜爱。在明清时期，为红木家具盛世，当时使用黄花梨制成的红木家具较之其他年代可谓是卓尔不群，其中明式家具从简，结构精巧、造型唯美、简约大气；清式家具从精，精雕细刻，将工艺发展到极致。时至今日，无论是从艺术审美还是从人工学的角度去观察，世人都对明式、清式家具赞不绝口，称谓它们为世界家具艺术中的珍品，而这些所谓的珍品以黄花梨居多，可见世人对黄花梨的喜爱。</p>
+                                    <p>2019-8-26</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgInfo">    
+            <div class="kuangtiao2"></div>
+            {include file="public/ingenuityWrap" /} 
+            <div class="kuangtiao2"></div>
+            {include file="public/mapWrap" /} 
+        </div>
+    </div>
+{/block}
+{block name="js"}{/block}

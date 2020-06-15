@@ -1,0 +1,94 @@
+{extend name="public/base" /}
+{block name="seo"}         
+        <title>红日森</title>
+    </head>
+    <body class="newBody">
+{/block}
+
+{block name="content"}
+    <div class="main">
+        <div class="kuangtiao2"></div>
+        <div class="industryWrap">
+            <div class="container">
+                <div class="industry">
+                    <h1 class="h1 red center">
+                        <img src="__IMG__/brackets-left.png" alt="" class="brackets"/>
+                        <span>行业资讯</span> 
+                        <img src="__IMG__/brackets-right.png" alt="" class="brackets"/>
+                    </h1>
+                    <div class="info">
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/industrydetail/detail/1')}">
+                                        <img class="media-object" src="__IMG__/industry_1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">艺术生活品质——红木大床品鉴</h4>
+                                    <p>金风细细，叶叶梧桐坠，绿酒初尝人易醉。一枕小窗浓睡，紫薇朱槿花残，斜阳却照阑干。双燕欲归时节，银屏昨夜微寒。</p>
+                                    <p>2019-10-17</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/industrydetail/detail/2')}">
+                                        <img class="media-object" src="__IMG__/industry_2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">“疏影横斜水清浅，暗香浮动月黄昏”——浅谈红木家具的“梅花精神”</h4>
+                                    <p>梅花是我国十大名花之一，她冰肌玉骨、独步早春、凌寒留香的品性历来深为人们所钟爱。人们喜爱梅花，不单被梅花俊俏的外表着迷，也折服于它不畏严寒，凌霜傲雪的坚韧品格。这便是梅花精神，它给人带来人生启迪，不惧权势，顽强不屈，不卑不亢的精神正是我们从梅花上学到的。</p>
+                                    <p>2019-10-12</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/industrydetail/detail/3')}">
+                                        <img class="media-object" src="__IMG__/industry_3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">探秘和珅的旧府邸——恭王府里的红木家具</h4>
+                                    <p>和珅，是历史上比较有名的一个人物。不以政绩斐然出名，而是以贪污为后人所诟病。和珅官拜文华殿大学士，位居一品，深受乾隆宠爱。乾隆死后，嘉庆下令革掉和珅职位，抄没家产，惩治了这一大贪官。</p>
+                                    <p>2019-9-24</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/industrydetail/detail/4')}">
+                                        <img class="media-object" src="__IMG__/industry_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">红木酒柜——爱酒人士都选这样的家具</h4>
+                                    <p>中国的酒文化历史源远流长，所造之酒品类繁多，且享誉中外。然而酒的发明，也是一次偶然。传说杜康有一次将剩饭倒入了空的桑树中，时间长饭就发酵了，散发出了一种芬芳的气味，并流出一种液体，尝起来味美甘甜，这便是酒的起源。</p>
+                                    <p>2019-9-6</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="{:url('/index/home/industrydetail/detail/5')}">
+                                        <img class="media-object" src="__IMG__/industry_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">浅谈中国红木文化，竟然还和古建筑有些联系？</h4>
+                                    <p>有人说，红木家具就是中国古建筑的缩影。这倒也不难理解，毕竟先有的古建筑，然后红木家具也借鉴了其中的精髓。比如，我们所看到的一些古建筑是榫卯结构，屹立千年不倒。而且红木家具也采用榫卯结构，严丝合缝，即使过了很多年，依然坚固如初。</p>
+                                    <p>2019-8-26</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgInfo">    
+            <div class="kuangtiao2"></div>
+            {include file="public/ingenuityWrap" /} 
+            <div class="kuangtiao2"></div>
+            {include file="public/mapWrap" /} 
+        </div>
+    </div>
+{/block}
+{block name="js"}{/block}

@@ -1,0 +1,55 @@
+<div class="header">
+    <div class="kuangtiao"></div>
+    <!-- 导航菜单 -->
+    <div class="container">      
+        <nav class="navbar navbar-default hrs_nav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">
+                        <img src="__IMG__/logo.png" alt="" srcset="">
+                    </a>
+                </div>                  
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="{:url('/index/home')}">首页</a>
+                        </li>
+                        <li>
+                            <a href="{:url('/index/home/aboutus')}">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="{:url('/index/home/myserver')}">服务项目</a>
+                        </li>
+                        <li>
+                            <a href="{:url('/index/home/industry')}">行业资讯</a>
+                        </li>
+                        <li>
+                            <a href="{:url('/index/home/knowledge')}">红木知识</a>
+                        </li>
+                        <li>
+                            <a href="{:url('/index/home/freightbasis')}">计费标准</a>
+                        </li>
+                        <li>
+                            <a href="{:url('/index/home/contact')}">联系我们</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!-- 轮播图 -->
+    <div class="layui-carousel" id="carousel" lay-filter="carousel">
+        <div carousel-item="">            
+            <div><img src="__IMG__/banner2.jpg"></div>
+            <div><img src="__IMG__/banner1.png"></div>
+        </div>
+    </div> 
+</div>

@@ -1,0 +1,42 @@
+{extend name="public/base" /}
+{block name="seo"}         
+        <title>红日森</title>
+    </head>
+    <body class="newBody">
+{/block}
+
+{block name="content"}
+    <div class="main">            
+        {include file="public/maintenanceWrap" /} 
+        <div class="kuangtiao2"></div>
+        <div class="aboutUsWrap">
+            <div class="container">
+                <div class="serverInfo ">
+                    <h1 class="h1 red center">
+                        <img src="__IMG__/brackets-left.png" alt="" class="brackets"/>
+                        <span>关于红日森</span> 
+                        <img src="__IMG__/brackets-right.png" alt="" class="brackets"/>
+                    </h1>
+                    <h1 class="desc brightRed center">
+                        百年树木精雕琢，千秋古韵今朝藏   传承古典，尽显优雅
+                    </h1>
+                    <div class="info">
+                        <p class="p1">红日森红木家具录属北京红日森红木家具有限公司。</p> 
+                        <p class="p1">红日森红木家具品牌由来已久，取东方之红，众木成林之意，建成之初，在故宫博物院、福建仙游几位同业前辈的带领下，从事红木材研究10余年。</p>
+                        <p class="p1">红日森红木家具专业经营纯正明清古典家具。公司集设计、监制、销售、服务为一体，所经营家具在制作方面继承了中国传统家具的巧妙、精确的榫卯结构，红日森红木家具精选缅甸花梨、老挝酸枝、越南花梨等名贵木材为原料，确保每一件产品经过精细选料，精心设计，精雕细琢，倾心打造 “型、材、艺、韵”兼备，实用、观赏、保值、收藏共存的艺术珍品。</p>
+                        <p class="p2">
+                            <img src="__IMG__/pic_aboutUs.png" alt="" srcset="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgInfo">    
+            <div class="kuangtiao2"></div>
+            {include file="public/newsWrap" /} 
+            <div class="kuangtiao2"></div>
+            {include file="public/mapWrap" /} 
+        </div>
+    </div>
+{/block}
+{block name="js"}{/block}
